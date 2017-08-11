@@ -1,0 +1,2 @@
+[cxx]
+  cxxflags = -DIS_INSIDE_CELL=1

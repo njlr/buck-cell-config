@@ -1,0 +1,8 @@
+[project]
+  ignore = .git
+
+[build]
+  engine = deep
+
+[repositories]
+  mathutils = external/mathutils
