@@ -6,3 +6,6 @@
 
 [repositories]
   mathutils = external/mathutils
+
+[cxx]
+  cxxflags = -DIS_OUTSIDE_CELL=1

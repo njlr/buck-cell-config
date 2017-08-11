@@ -7,6 +7,13 @@ const bool isInsideCell = true;
 const bool isInsideCell = false;
 #endif
 
+#ifdef IS_OUTSIDE_CELL
+const bool isOutsideCell = true;
+#else
+const bool isOutsideCell = false;
+#endif
+
 std::string about() {
-  return "mathutils. inside cell? " + std::to_string(isInsideCell);
+  return std::string("mathutils. ") + "inside cell? " + std::to_string(isInsideCell) +
+    " outside cell? " + std::to_string(isOutsideCell);
 }
